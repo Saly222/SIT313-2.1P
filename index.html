@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lightgray; 
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  width: 100%;
+  max-width: 800px; 
+}
+.button 
+{
+    background-color: gray;
+}
+.form
+{
+    width: 200px;
+    height: 30px;
+}
+
+  
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+          <h2>SIGN UP FOR OUR DAILY INSIDER<h2>
+          <form action="/sign-up" method="post">
+            <input class = 'form' type="email" id="email" name="email" placeholder="Enter your email">
+            <button class ='button' type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
